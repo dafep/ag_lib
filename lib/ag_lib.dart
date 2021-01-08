@@ -1,7 +1,10 @@
 library ag_lib;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+/* MainAppController */
+
+export "mainAppController/body.dart";
+export "mainAppController/bottomNavBar.dart";
+export "mainAppController/mainAppControllerLoader.dart";
+export "mainAppController/navBar.dart";
+export "mainAppController/navBarItems.dart";
+export "mainAppController/unexpected.dart";
